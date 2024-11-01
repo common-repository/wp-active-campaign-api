@@ -1,0 +1,105 @@
+#lean_overlay {
+	position: fixed;
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	display: none;
+}
+
+#subscribe {
+	padding-bottom: 2px;
+	display: none;
+	background: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+
+#subscribe-header {
+	background: url(../img/hd-bg.png);
+	padding: 8px 40px;
+	border-bottom: 1px solid #CCC;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+#subscribe-header h2 {
+	color: #444;
+	font-size: 2em;
+	font-weight: 500;
+	margin-bottom: 3px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#subscribe .txt-fld {
+	padding: 10px 20px;
+}
+
+#subscribe .btn-fld {
+	margin:auto;
+}
+#subscribe .txt-fld input {
+  padding: 10px 8px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  font-size: 1.2em;
+  color: #222;
+  background: #F7F7F7;
+  font-family: "Helvetica Neue";
+  outline: none;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #E7E6E6;
+  border-bottom: 1px solid #E7E6E6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.btnsubscribe {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: #D6432b; 
+	border: none;
+	font-size: 1.4em;
+	color: #FFF;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+	display:block;
+	margin:auto;
+	width:90%
+}
+.btnsubscribe:hover {background:#F04529;}
+.btnsubscribe:active {background: #C3351E;}
+
+.modal_close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/modal_close.png);
+	z-index: 2;
+}
+
+#subscribe-header h2 {
+  color: #444;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 10px 20px;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
